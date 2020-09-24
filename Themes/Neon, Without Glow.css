@@ -1,0 +1,309 @@
+meta {
+    -theme-display-name: "Neon";
+    -theme-interface-style: dark;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: rgb(36, 23, 52);
+    border-color: rgb(84, 13, 110);
+}
+meta.titlebar {
+    color: rgb(245, 220, 236);
+    background: linear-gradient(rgb(101, 13, 137), rgb(36, 23, 52));
+    border-color: rgb(121, 30, 148);
+}
+meta.titlebar.inactive {
+    background-color: rgb(36, 23, 52);
+    border-color: rgb(84, 13, 110);
+}
+
+meta.button {
+    background: linear-gradient(rgb(84, 19, 136), rgb(46, 33, 87));
+    border: linear-gradient(rgb(36, 23, 52), rgb(13, 2, 33));
+    color: rgba(255, 255, 255, 0.75);
+}
+meta.button.highlighted {
+    background: linear-gradient(rgb(246, 1, 157), rgb(212, 0, 120));
+    color: white;
+}
+meta.button.selected {
+    background: linear-gradient(rgb(212, 0, 120), rgb(146, 0, 117));
+    color: white;
+}
+meta.button.highlighted.selected {
+    background: linear-gradient(rgb(246, 1, 157), rgb(212, 0, 120));
+    color: white;
+}
+meta.button.disabled {
+    background: linear-gradient(rgb(84, 19, 136), rgb(46, 33, 87));
+    border: linear-gradient(rgb(36, 23, 52), rgb(13, 2, 33));
+    color: rgba(255, 255, 255, 0.25);
+}
+
+meta.textfield {
+    background-color: rgb(46, 33, 87);
+    border-color: rgb(84, 13, 110);
+}
+
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: rgb(32, 20, 46);
+    border-color: rgb(84, 13, 110);
+}
+
+meta.document.button {
+    background: linear-gradient(rgb(84, 19, 136), rgb(46, 33, 87));
+    border: linear-gradient(rgb(36, 23, 52), rgb(13, 2, 33));
+    color: rgba(255, 255, 255, 0.75);
+}
+meta.document.button.selected {
+    background: linear-gradient(rgb(212, 0, 120), rgb(146, 0, 117));
+    color: white;
+}
+meta.document.button.highlighted {
+    background: linear-gradient(rgb(246, 1, 157), rgb(212, 0, 120));
+    color: white;
+}
+meta.document.button.highlighted.selected {
+    background: linear-gradient(rgb(246, 1, 157), rgb(212, 0, 120));
+    color: white;
+}
+meta.document.button.disabled {
+    background: linear-gradient(rgb(84, 19, 136), rgb(46, 33, 87));
+    border: linear-gradient(rgb(36, 23, 52), rgb(13, 2, 33));
+    color: rgba(255, 255, 255, 0.25);
+}
+
+meta.document.textfield {
+    background-color: rgb(46, 33, 87);
+    border-color: rgb(84, 13, 110);
+}
+
+/* Text */
+meta.text {
+    color: rgb(245, 73, 179);
+}
+meta.text.invisible {
+    color: rgb(89, 103, 179);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgb(46, 33, 87);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: rgb(146, 0, 117);
+}
+
+/* Gutter */
+meta.gutter {
+    color: rgb(121, 30, 148);
+}
+meta.gutter.selected {
+    background-color: rgb(46, 33, 87);
+    color: rgb(246, 1, 157);
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: rgb(250, 244, 225);
+}
+comment {
+    color: rgb(89, 103, 179);
+}
+processing {
+    color: rgb(89, 103, 179);
+}
+declaration {
+    color: rgb(89, 103, 179);
+}
+bracket {
+    color: rgb(245, 220, 236);
+}
+operator {
+    color: rgb(246, 1, 157);
+}
+invalid {
+    background-color: red;
+}
+link {
+    color: rgb(178, 254, 255);
+}
+
+/* Values */
+value.boolean {
+    color: rgb(255, 108, 17);
+}
+value.null {
+    color: rgb(255, 108, 17);
+}
+value.number {
+    color: rgb(255, 67, 101);
+}
+value.entity {
+    color: rgb(255, 108, 17);
+}
+value.symbol {
+    color: rgb(255, 108, 17);
+}
+
+/* Identifiers */
+identifier.type {
+    color: rgb(255, 208, 178);
+}
+identifier.constant {
+}
+identifier.global, identifier.variable {
+    color: rgb(178, 254, 255);
+}
+identifier.property {
+    color: rgb(178, 254, 255);
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+    color: rgb(178, 254, 255);
+}
+identifier.key {
+    color: rgb(178, 254, 255);
+}
+identifier.argument {
+    color: rgb(178, 254, 255);
+}
+
+/* Strings */
+string {
+    color: white;
+}
+string.key {
+    color: rgb(245, 147, 209);
+}
+string-template {
+    color: rgb(246, 1, 157);
+}
+string-template.value {
+    color: rgb(245, 147, 209);
+}
+regex {
+    color: rgb(245, 147, 209);
+}
+regex.escaped {
+    color: rgb(245, 147, 209);
+}
+cdata {
+    
+}
+
+/* Markup */
+markup.heading {
+    color: rgb(255, 208, 178);
+}
+markup.line {
+    color: rgb(250, 244, 225);
+}
+markup.bold {
+    color: rgb(178, 254, 255);
+    font-weight: bold;
+}
+markup.italic {
+    color: rgb(255, 208, 178);
+    font-style: italic;
+}
+markup.strikethrough {
+    color: rgb(245, 220, 236);
+}
+markup.list.item {
+    color: rgb(250, 244, 225);
+}
+markup.code {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+markup.link {
+    color: rgb(178, 254, 255);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    
+}
+
+/* Tags */
+tag {
+    color: rgb(250, 244, 225);
+}
+tag.framework {
+    color: rgb(178, 254, 255);
+}
+tag.attribute.name {
+    color: rgb(255, 208, 178);
+}
+tag.attribute.value {
+    color: rgb(245, 147, 209);
+}
+tag.attribute.value.link {
+    color: rgb(178, 254, 255);
+}
+
+/* Styles */
+style.at {
+    color: rgb(250, 244, 225);
+    font-weight: bold;
+}
+style.selector.element {
+    color: rgb(250, 244, 225);
+}
+style.selector.identifier.id {
+    color: rgb(255, 208, 178);
+    font-weight: bold;
+}
+style.selector.identifier.class {
+    color: rgb(178, 254, 255);
+}
+style.selector.pseudoclass {
+    color: rgb(178, 254, 255);
+}
+style.selector.pseudoelement {
+    color: rgb(178, 254, 255);
+}
+style.attribute.name {
+    color: rgb(245, 147, 209);
+}
+style.value.number {
+    color: rgb(255, 67, 101);
+}
+style.value.color.hex {
+    color: rgb(255, 67, 101);
+}
+style.value.keyword {
+    color: rgb(249, 200, 14);
+}
+style.value.color.named {
+    color: rgb(249, 200, 14);
+}
