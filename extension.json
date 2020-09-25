@@ -3,7 +3,8 @@
     "name": "Neon, Without Glow",
     "organization": "Christopher Sardegna",
     "description": "Panic's Neon theme without the glow",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": ["themes"],
-    "bugs": "https://github.com/ReagentX/Neon-No-Glow"
+    "repository": "https://github.com/ReagentX/Neon-No-Glow",
+    "bugs": "https://github.com/ReagentX/Neon-No-Glow/issues"
 }
